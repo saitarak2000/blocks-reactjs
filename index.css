@@ -1,0 +1,112 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  #root {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  border: 2px red solid;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    width: 600px;
+  }
+}
+h1 {
+  font-family: "Bree Serif";
+  font-weight: bold;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+}
+
+.box1 {
+  height: 80px;
+  width: 90px;
+  background-color: #fbbf24;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .box1 {
+    margin-top: 0px;
+    margin-bottom: -102px;
+    margin-right: 20px;
+  }
+}
+.box2 {
+  height: 150px;
+  width: 140px;
+  text-align: center;
+  background-color: #38bdf8;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .box2 {
+    margin-top: 0px;
+    margin-bottom: -45px;
+    margin-right: 20px;
+  }
+}
+
+.box3 {
+  height: 190px;
+  width: 180px;
+  text-align: center;
+  background-color: #ec4899;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .box3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+  }
+}
